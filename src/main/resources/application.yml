@@ -1,0 +1,18 @@
+
+
+spring:
+    data:
+        mongodb:
+            testdb:
+                database: testdb
+                addresses: 192.168.9.60:20000
+                username: testdb
+                password: testdb
+                port: 20000
+            testdb2:
+                database: testdb
+                addresses: 192.168.9.60:20000
+                username: testdb
+                password: testdb
+                port: 20000
+
