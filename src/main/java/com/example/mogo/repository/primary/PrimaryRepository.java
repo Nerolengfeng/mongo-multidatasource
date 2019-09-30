@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * @author: 段闪闪 duanss
  * @create: 2019-09-27 11:04
  **/
-//@Repository
+@Repository
 public interface PrimaryRepository extends MongoRepository<PrimaryMongoObject, String> {
 
 

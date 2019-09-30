@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 /**
  * @program: mogo
@@ -21,6 +22,7 @@ public class PrimaryMongoObject {
     @Id
     private String id;
 
+    @Field(value = "a0")
     private String value;
 
     @Override
