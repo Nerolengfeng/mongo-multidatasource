@@ -1,18 +1,9 @@
-
-
 spring:
     data:
         mongodb:
             testdb:
-                database: testdb
-                addresses: 192.168.9.60:20000
-                username: testdb
-                password: testdb
-                port: 20000
+                uri: mongodb://testdb:testdb@10.10.6.133:65000/testdb
             testdb2:
-                database: testdb
-                addresses: 192.168.9.60:20000
-                username: testdb
-                password: testdb
-                port: 20000
+                uri: mongodb://aladinqpjldata:aladinqpjldata@10.10.6.134:65000/aladinqpjldata
+
 

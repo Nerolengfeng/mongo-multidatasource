@@ -15,7 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "test111")
+@Document(collection = "Aladin_WayBill")
 public class SecondMongoObject {
 
     @Id
